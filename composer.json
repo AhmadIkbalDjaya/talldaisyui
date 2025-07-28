@@ -1,0 +1,30 @@
+{
+    "name": "ahmadikbaldjaya/talldaisyui",
+    "description": "TallDaisyUi is a laravel blade UI Components library build on TALL Stack and Daisy Ui",
+    "version": "0.1.0-dev",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AhmadIkbalDjaya",
+            "email": "ikbaldjaya@gmail.com",
+            "homepage": "https://github.com/AhmadIkbalDjaya"
+        }
+    ],
+    "homepage": "https://github.com/AhmadIkbalDjaya/talldaisyui",
+    "autoload": {
+        "psr-4": {
+            "AhmadIkbalDjaya\\Talldaisyui\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AhmadIkbalDjaya\\Talldaisyui\\TallDaisyUiServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
+}

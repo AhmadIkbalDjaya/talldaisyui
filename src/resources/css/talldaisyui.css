@@ -1,0 +1,72 @@
+@source inline("btn");
+@source inline("btn-neutral btn-primary btn-secondary btn-accent btn-info btn-success btn-warning btn-error");
+@source inline("btn-outline btn-dash btn-soft btn-ghost btn-link");
+@source inline("btn-active btn-disabled");
+@source inline("btn-xs btn-sm btn-md btn-lg btn-xl");
+@source inline("btn-wide btn-block btn-square btn-circle");
+
+@source inline("badge");
+@source inline("badge-outline badge-dash badge-soft badge-ghost");
+@source inline("badge-neutral badge-primary badge-secondary badge-accent badge-info badge-success badge-warning badge-error");
+@source inline("badge-xs badge-sm badge-md badge-lg badge-xl");
+
+@source inline("status");
+@source inline("status-neutral status-primary status-secondary status-accent status-info status-success status-warning status-error");
+@source inline("status-xs status-sm status-md status-lg status-xl");
+
+@source inline("animate-ping animate-bounce");
+
+@source inline("breadcrumbs");
+
+@source inline("alert");
+@source inline("alert-outline alert-dash alert-soft");
+@source inline("alert-info alert-success alert-warning alert-error");
+@source inline("alert-vertical alert-horizontal");
+
+@source inline("loading");
+@source inline("loading-spinner loading-dots loading-ring loading-ball loading-bars loading-infinity");
+@source inline("loading-xs loading-sm loading-md loading-lg loading-xl");
+
+@source inline("checkbox");
+@source inline("checkbox-xs checkbox-sm checkbox-md checkbox-lg checkbox-xl");
+@source inline("checkbox-neutral checkbox-primary checkbox-secondary checkbox-accent checkbox-info checkbox-success checkbox-warning checkbox-error");
+
+@source inline("radio");
+@source inline("radio-xs radio-sm radio-md radio-lg radio-xl");
+@source inline("radio-neutral radio-primary radio-secondary radio-accent radio-info radio-success radio-warning radio-error");
+
+@source inline("range");
+@source inline("range-xs range-sm range-md range-lg range-xl");
+@source inline("range-neutral range-primary range-secondary range-accent range-info range-success range-warning range-error");
+
+@source inline("input input-ghost");
+@source inline("input-xs input-sm input-md input-lg input-xl");
+@source inline("input-neutral input-primary input-secondary input-accent input-info input-success input-warning input-error");
+
+@source inline("textarea textarea-ghost");
+@source inline("textarea-xs textarea-sm textarea-md textarea-lg textarea-xl");
+@source inline("textarea-neutral textarea-primary textarea-secondary textarea-accent textarea-info textarea-success textarea-warning textarea-error");
+
+@source inline("file-input file-input-ghost");
+@source inline("file-input-neutral file-input-primary file-input-secondary file-input-accent file-input-info file-input-success file-input-warning file-input-error");
+@source inline("file-input-xs file-input-sm file-input-md file-input-lg file-input-xl");
+
+@source inline("select select-ghost");
+@source inline("select-neutral select-primary select-secondary select-accent select-info select-success select-warning select-error");
+@source inline("select-xs select-sm select-md select-lg select-xl");
+
+@source inline("toggle");
+@source inline("toggle-neutral toggle-primary toggle-secondary toggle-accent toggle-info toggle-success toggle-warning toggle-error");
+@source inline("toggle-xs toggle-sm toggle-md toggle-lg toggle-xl");
+
+@source inline("kbd");
+@source inline("kbd-xs kbd-sm kbd-md kbd-lg kbd-xl");
+
+@source inline("progress");
+@source inline("progress-neutral progress-primary progress-secondary progress-accent progress-info progress-success progress-warning progress-error");
+
+@source inline("skeleton");
+
+@source inline("tooltip tooltip-content tooltip-open");
+@source inline("tooltip-top tooltip-bottom tooltip-left tooltip-right");
+@source inline("tooltip-neutral tooltip-primary tooltip-secondary tooltip-accent tooltip-info tooltip-success tooltip-warning tooltip-error");
