@@ -13,7 +13,7 @@
   ];
   $classes = implode(" ", array_filter($classes));
 
-  $attributes = $attributes->without(["type"])->merge([
+  $attributes = $attributes->merge([
     "type" => "file",
     "class" => $classes,
   ]);

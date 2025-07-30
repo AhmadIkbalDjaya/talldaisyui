@@ -10,7 +10,7 @@
     $size ? "toggle-{$size}" : null,
   ];
   $classes = implode(" ", array_filter($classes));
-  $attributes = $attributes->without(["type"])->merge([
+  $attributes = $attributes->merge([
     "type" => "checkbox",
     "class" => $classes,
   ]);
