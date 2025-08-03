@@ -47,7 +47,7 @@ php artisan install:talldaisyui
 
 ## 📚 Documentation
 
-Complete documentation is coming soon! In the meantime, you can find temporary documentation at our [Documentation Page](docs/Docs.md).
+Complete documentation is coming soon! In the meantime, you can find temporary documentation at our [Documentation Page](DOCS.md).
 
 #### Example Usage
 
