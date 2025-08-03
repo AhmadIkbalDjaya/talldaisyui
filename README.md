@@ -8,7 +8,7 @@
 
 TallDaisyUI is a Laravel Blade UI Components library built on TALL Stack (Tailwind CSS, Alpine.js, Laravel, Livewire) and DaisyUI. It provides a collection of beautifully designed, responsive, and accessible UI components that can be easily integrated into your Laravel applications.
 
-## Introduction
+## 🚀 Introduction
 
 TallDaisyUI combines the power of DaisyUI's beautiful component classes with Laravel Blade components to create a seamless development experience. Built specifically for the TALL stack ecosystem, this package offers:
 
@@ -19,7 +19,7 @@ TallDaisyUI combines the power of DaisyUI's beautiful component classes with Lar
 - 🚀 **Lightweight**: No heavy JavaScript dependencies
 - 🎯 **TALL Stack Optimized**: Works perfectly with Tailwind, Alpine, Laravel, and Livewire
 
-## Installation
+## 📖 Installation
 
 ### Requirements
 
@@ -47,7 +47,13 @@ php artisan install:talldaisyui
 
 ## 📚 Documentation
 
-Complete documentation is coming soon! In the meantime, you can find temporary documentation at our [GitHub repository](https://github.com/AhmadIkbalDjaya/talldaisyui).
+Complete documentation is coming soon! In the meantime, you can find temporary documentation at our [Documentation Page](docs/Docs.md).
+
+#### Example Usage
+
+```blade
+<x-button label="Hello" color="primary" />
+```
 
 ## 📝 License
 
