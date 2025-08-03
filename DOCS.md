@@ -46,6 +46,8 @@ Run the installer to publish the assets and configuration files.
 php artisan install:talldaisyui
 ```
 
+---
+
 ## Components
 
 ### Actions
@@ -53,8 +55,6 @@ php artisan install:talldaisyui
 ### Button
 
 Buttons allow the user to take actions or make choices.
-
----
 
 #### Basic Button
 
@@ -69,7 +69,9 @@ Buttons allow the user to take actions or make choices.
 #### Button Colors
 
 Use the `color` property to change the button color.
+
 Available color options:
+
 `neutral` | `primary` | `secondary` | `accent` | `info` | `success` | `warning` | `error`
 
 ```blade
@@ -79,6 +81,7 @@ Available color options:
 #### Button Sizes
 
 Use the `size` property to adjust the button size.
+
 Available size options:
 `xs` | `sm` | `md` | `lg` | `xl`
 
@@ -89,7 +92,9 @@ Available size options:
 #### Button Styles
 
 Use the `style` property to change the button style.
+
 Available style options:
+
 `outline` | `dash` | `soft` | `ghost` | `link`
 
 ```blade
@@ -132,13 +137,13 @@ Create square or circular buttons:
 <x-button label="F" circle />
 ```
 
+---
+
 ### Data Display
 
 ### Badge
 
 Badges provide concise status or category information in the form of a small label.
-
----
 
 #### Basic Badge
 
@@ -150,54 +155,52 @@ Badges provide concise status or category information in the form of a small lab
 <x-badge>Default</x-badge>
 ```
 
----
-
 #### Badge Colors
 
-Use the `color` property to change the badge color.  
+Use the `color` property to change the badge color.
+
 Available color options:
+
 `neutral` | `primary` | `secondary` | `accent` | `info` | `success` | `warning` | `error`
 
 ```blade
 <x-badge color="primary" label="Primary" />
 ```
 
----
-
 #### Badge Sizes
 
-Use the `size` property to adjust the badge size.  
+Use the `size` property to adjust the badge size.
+
 Available size options:
-`xs`| `sm`| `md`| `lg`| `xl`
+
+`xs` | `sm` | `md` | `lg` | `xl`
 
 ```blade
 <x-badge size="sm" label="Small" />
 ```
 
----
-
 #### Badge Styles
 
-Use the `style` property to change the badge style.  
+Use the `style` property to change the badge style.
+
 Available style options:
+
 `outline` | `dash` | `soft` | `ghost`
 
 ```blade
 <x-badge style="soft" label="Soft" />
 ```
 
----
-
 #### Notes
 
 - All badges can be used with or without the `label` property. If omitted, you can define the content directly inside the `<x-badge>...</x-badge>` tag.
 - This badge component is compatible with Tailwind CSS and DaisyUI for styling.
 
+---
+
 ### Status
 
 Status is a really small icon to visually show the current status of an element, like online, offline, error, etc.
-
----
 
 #### Basic Status
 
@@ -205,12 +208,12 @@ Status is a really small icon to visually show the current status of an element,
 <x-status />
 ```
 
----
-
 #### Status Colors
 
-Use the `color` property to change the status color.  
+Use the `color` property to change the status color.
+
 Available color options:
+
 `neutral` | `primary` | `secondary` | `accent` | `info` | `success` | `warning` | `error`
 
 ```blade
@@ -220,7 +223,9 @@ Available color options:
 #### Status Sizes
 
 Use the `size` property to adjust the status size.
+
 Available size options:
+
 `xs` | `sm` | `md` | `lg` | `xl`
 
 ```blade
@@ -230,10 +235,38 @@ Available size options:
 #### Status Animations
 
 Use the `animation` property to adjust the status animation.
+
 Available animation options:
+
 `ping` | `bouncce`
 
 ```blade
 <x-status animation="ping" color="error" />
 <x-status animation="bounce" color="info" />
 ```
+
+---
+
+### Kbd
+
+Kbd is used to display keyboard shortcuts.
+
+#### Basic Kbd
+
+```blade
+<x-kbd shortcut="K" />
+```
+
+#### Badge Sizes
+
+Use the `size` property to adjust the kbd size.
+
+Available size options:
+
+`xs` | `sm` | `md` | `lg` | `xl`
+
+```blade
+<x-kbd size="sm" shortcut="Small" />
+```
+
+---
