@@ -1,6 +1,6 @@
 <?php
 
-namespace AhmadIkbalDjaya\Talldaisyui\Console\Commands;
+namespace Talldaisyui\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;

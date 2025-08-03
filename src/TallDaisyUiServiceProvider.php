@@ -1,8 +1,8 @@
 <?php
 
-namespace AhmadIkbalDjaya\Talldaisyui;
+namespace Talldaisyui;
 
-use AhmadIkbalDjaya\Talldaisyui\Console\Commands\InstallTalldaisyuiCommand;
+use Talldaisyui\Console\Commands\InstallTalldaisyuiCommand;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
 
