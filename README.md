@@ -3,7 +3,7 @@
 <p align="center">
  <a href="https://packagist.org/packages/ikbaldjaya/talldaisyui"><img src="https://img.shields.io/packagist/v/ikbaldjaya/talldaisyui?style=flat-square" alt="Latest Version on Packagist"></a>
  <a href="https://packagist.org/packages/ikbaldjaya/talldaisyui"><img src="https://img.shields.io/packagist/dt/ikbaldjaya/talldaisyui?style=flat-square" alt="Total Downloads"></a>
- <a href="https://github.com/AhmadIkbalDjaya/talldaisyui?tab=MIT-1-ov-file"><img src="https://img.shields.io/github/license/ikbaldjaya/talldaisyui?style=flat-square" alt="GitHub license"></a>
+ <a href="https://github.com/AhmadIkbalDjaya/talldaisyui?tab=MIT-1-ov-file"><img src="https://img.shields.io/github/license/AhmadIkbalDjaya/talldaisyui?style=flat-square" alt="GitHub license"></a>
 </p>
 
 TallDaisyUI is a Laravel Blade UI Components library built on TALL Stack (Tailwind CSS, Alpine.js, Laravel, Livewire) and DaisyUI. It provides a collection of beautifully designed, responsive, and accessible UI components that can be easily integrated into your Laravel applications.
