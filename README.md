@@ -34,7 +34,7 @@ TallDaisyUI combines the power of DaisyUI's beautiful component classes with Lar
 Install the package via composer.
 
 ```bash
-composer require ahmadikbaldjaya/talldaisyui
+composer require ikbaldjaya/talldaisyui
 ```
 
 ### Step 2: Run the installer
