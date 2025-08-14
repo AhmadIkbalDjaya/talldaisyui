@@ -2,7 +2,6 @@
   "active" => null,
   "disabled" => null,
   "label" => null,
-
 ])
 
 @php
