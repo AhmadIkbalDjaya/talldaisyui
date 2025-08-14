@@ -12,6 +12,7 @@
     - [Kbd](#kbd)
   - [Navigation](#navigation)
     - [Breadcrumbs](#breadcrumbs)
+    - [Tabs](#tabs)
   - [Feedback](#feedback)
     - [Alert](#alert)
     - [Loading](#loading)
@@ -285,6 +286,88 @@ Breadcrumbs helps users to navigate through the website.
   <x-breadcrumbs.item href="#" label="Blog" />
   <x-breadcrumbs.item href="#" label="Laravel" />
 </x-breadcrumbs>
+```
+
+---
+
+### Tabs
+
+Tabs can be used to show a list of links in a tabbed format.
+
+#### Basic Tabs
+
+```blade
+<x-tabs>
+  <x-tabs.item name="tab-item-1" label="Tab 1">Content 1</x-tabs.item>
+  <x-tabs.item name="tab-item-2" label="Tab 2">Content 2</x-tabs.item>
+  <x-tabs.item name="tab-item-3" label="Tab 3">Content 3</x-tabs.item>
+</x-tabs>
+```
+
+#### Tabs Style
+
+Use the `style` property to change the tabs style.
+
+Available style options:
+
+`box` | `border` | `lift`
+
+```blade
+<x-tabs style="box">
+  <x-tabs.item name="tab-item-1" label="Tab 1">Content 1</x-tabs.item>
+  <x-tabs.item name="tab-item-2" label="Tab 2">Content 2</x-tabs.item>
+  <x-tabs.item name="tab-item-3" label="Tab 3">Content 3</x-tabs.item>
+</x-tabs>
+```
+
+#### Tabs Placement
+
+Use the `placement` property to change the tabs placement.
+
+Available placement options:
+
+`top` | `bottom`
+
+```blade
+<x-tabs placement="bottom">
+  <x-tabs.item name="tab-item-1" label="Tab 1">Content 1</x-tabs.item>
+  <x-tabs.item name="tab-item-2" label="Tab 2">Content 2</x-tabs.item>
+  <x-tabs.item name="tab-item-3" label="Tab 3">Content 3</x-tabs.item>
+</x-tabs>
+```
+
+#### Tabs Size
+
+Use the `size` property to adjust the tabs size.
+
+Available size options:
+
+`xs` | `sm` | `md` | `lg` | `xl`
+
+```blade
+<x-tabs size="sm">
+  <x-tabs.item name="tab-item-1" label="Tab 1">Content 1</x-tabs.item>
+  <x-tabs.item name="tab-item-2" label="Tab 2">Content 2</x-tabs.item>
+  <x-tabs.item name="tab-item-3" label="Tab 3">Content 3</x-tabs.item>
+</x-tabs>
+```
+
+#### Tabs Item Active & Disabled
+
+Use the `active` and `disabled` properties to change the tabs item active and disabled state.
+
+```blade
+<x-tabs>
+  <x-tabs.item name="tab-item-active" label="Tab 1" disabled>
+    Content 1
+  </x-tabs.item>
+  <x-tabs.item name="tab-item-active" label="Tab 2" active>
+    Content 2
+  </x-tabs.item>
+  <x-tabs.item name="tab-item-active" label="Tab 3" disabled>
+    Content 3
+  </x-tabs.item>
+</x-tabs>
 ```
 
 ---

@@ -6,9 +6,9 @@
 @php
   $tabClasses = ["tab", $active ? "tab-active" : null, $disabled ? "tab-disabled" : null];
   $tabClasses = implode(" ", array_filter($tabClasses));
-  $tabAttributes = $attributes->whereStartsWith("tab-")->toArray();
+  $tabCustomAttributes = $attributes->whereStartsWith("tab-")->toArray();
   
-  $tabAttributes = collect($tabAttributes)->mapWithKeys(function ($value, $key) {
+  $tabCustomAttributes = collect($tabCustomAttributes)->mapWithKeys(function ($value, $key) {
     return [str_replace("tab-", "", $key) => $value];
   })->toArray();
 
@@ -20,7 +20,7 @@
     "checked" => $attributes->get("checked"),
   ]);
   
-  $finalTabAttributes = $tabBaseAttributes->whereDoesntStartWith("tab-")->merge($tabAttributes);
+  $finalTabAttributes = $tabBaseAttributes->whereDoesntStartWith("tab-")->merge($tabCustomAttributes);
 
   $contentAttributes = $attributes
     ->whereDoesntStartWith("tab-")
@@ -28,7 +28,6 @@
     ->merge([
       "class" => "tab-content",
     ]);
-
 @endphp
 
 <input type="radio" {{ $finalTabAttributes }} />
