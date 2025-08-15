@@ -18,6 +18,7 @@
     - [Loading](#loading)
     - [Progress](#progress)
     - [Skeleton](#skeleton)
+    - [Toast] (#toast)
     - [Tooltip](#tooltip)
   - [Data Input](#data-input)
     - [Checkbox](#checkbox)
@@ -491,6 +492,36 @@ Skeleton is a component that can be used to show a loading state of a component.
 
 ```blade
 x-skeleton class="h-32 w-32" />
+```
+
+---
+
+### Toast
+
+Toast is a wrapper to stack elements, positioned on the corner of page.
+
+#### Basic Toast
+
+```
+<x-toast>
+  <x-alert color="info" label="Basic Toast" />
+</x-toast>
+```
+
+#### Toast Placement
+
+Use the `placement` property to change the tooltip placement.
+ex: `placement = "horizontal vertical"`
+
+Available placement options:
+
+horizontal = `start` | `center` | `end`
+vertical = `top` | `middle` | `bottom`
+
+```
+<x-toast placement="start middle">
+  <x-alert color="info" label="Start Middle" />
+</x-toast>
 ```
 
 ---

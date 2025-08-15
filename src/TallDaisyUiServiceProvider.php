@@ -60,6 +60,7 @@ class TallDaisyUiServiceProvider extends ServiceProvider
       "tab" => "tab.index",
       "tab.content" => "tab.content",
       "textarea" => "textarea.index",
+      "toast" => "toast.index",
       "toggle" => "toggle.index",
       "tooltip" => "tooltip.index",
       "tooltip.content" => "tooltip.content",
