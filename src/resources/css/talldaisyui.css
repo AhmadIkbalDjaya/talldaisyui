@@ -79,3 +79,7 @@
 @source inline("toast")
 @source inline("toast-top toast-middle toast-bottom");
 @source inline("toast-start toast-center toast-end");
+
+@source inline("modal modal-open")
+@source inline("modal-box modal-action modal-backdrop modal-toggle")
+@source inline("modal-top modal-middle modal-bottom modal-start modal-end");
